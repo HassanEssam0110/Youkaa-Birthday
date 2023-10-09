@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tags for SEO -->
+    <meta name="description"
+        content="Celebrate Youkaa's birthday with this surprise-filled page. Enjoy the birthday message, videos, and more!">
+    <meta name="keywords" content="birthday, surprise, celebration, Youkaa, friends, happiness">
+    <meta name="author" content="Hassan Essam">
+
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="Youkaa's Birthday">
+    <meta property="og:description"
+        content="Celebrate Youkaa's birthday with this surprise-filled page. Enjoy the birthday message, videos, and more!">
+    <meta property="og:image" content="./src/image/1.png">
+    <meta property="og:url" content="./src/image/1.png">
+
+    <link rel="shortcut icon" href="./src/image/1.png" type="image/x-icon">
+    <title>Youkaa's Birthday</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+
+
+</head>
+
+<body class="inactive">
+    <audio id="sound" src="./src/sound/song.mp3"></audio>
+    <div id="container" class=" inactive">
+        <div id="toggler" class="inactive">
+            <div id="switch" class="inactive"></div>
+        </div>
+        <canvas id="my-canvas"></canvas>
+
+        <div id="card-1" class="card back inactive">Happy Birthday Youkaa<br>✨🎉🎂
+            <button id="btnParty" class="btn">Let's Party</button>
+        </div>
+        <div id="card-2" class="card front">
+            <p>Surprise!</p>
+            <button id="btnFlip" class="btn">Flip Card</button>
+        </div>
+        <div class="radial-line"></div>
+    </div>
+
+    <div class="video-memory">
+        <h2>amazing friend</h2>
+        <div class="video-memory-container">
+            <img src="src/image/1.png" alt="">
+            <div class="video-memory-text inactive">
+                <p>On this special day, I wanted to take a moment to celebrate you and wish you the happiest of
+                    birthdays!
+                    You
+                    are an amazing friend, and I feel incredibly lucky to have you in my life. Your kindness, humor, and
+                    unwavering support have made a significant impact on me.</p>
+                <p>May this birthday be filled with joy, laughter, and unforgettable moments. You deserve all the
+                    happiness
+                    and
+                    success that life has to offer. Here's to another year of adventures, growth, and cherished memories
+                    together! Cheers to you, my dear friend!</p>
+            </div>
+        </div>
+        <video id="videoMamory" class="inactive" src="src/video/best-friend.mp4" type="video/mp4" controls></video>
+    </div>
+
+    <div class="radial-line"></div>
+
+    <div class="video-container">
+        <div class="main-video-container">
+            <iframe class="main-video" src="https://www.youtube.com/embed/jEbLPiHIjZQ"
+                referrerpolicy="no-referrer-when-downgrade" frameborder="0" gyroscope;
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <!-- <video class="main-video" src="https://www.youtube.com/embed/PEkjojgGeUE" loop controls></video> -->
+            <h3 class="main-video-title">Cairokee - Ghammad Einak</h3>
+        </div>
+        <div id="videoList" class="video-list-container"></div>
+    </div>
+
+    <script src=" ./js/index.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
