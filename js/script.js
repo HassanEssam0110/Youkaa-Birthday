@@ -16,103 +16,103 @@ let dark_mode = false;
 
 const listVideos = [
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/50ttf6SfkTE?autoplay=1',
         title: "Cairokee - Hatlena Bel Ba'y  Leban كايروكي - هاتلنا بالباقي لبان",
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/qyKf8OUCMmA?autoplay=1',
         title: "Ibrahim Maalouf - Red & Black Light ",
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/mJrWxOW0aCg?autoplay=1',
         title: "They don’t care about us - Cover by Ibrahim Maalouf",
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/uLYgnrj43Ss?autoplay=1',
         title: "Balash El Loun Da Maana - Ahmed Adaweyah",
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/dRh-XXDfe_M?autoplay=1',
         title: 'Mohamed Mounir-Fi 3esh2 El Banat | محمد منير-في عشق البنات'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/RdvxvQ9h2AA?autoplay=1',
         title: 'Cairokee - Wrong way blues'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/UrZDrBn9bsQ?autoplay=1',
         title: 'Abd El Basset Hamouda Ya3my w3m Alby'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/ZAUrCJInpOQ?autoplay=1',
         title: 'Ruby - Yal Romosh [ Official Music Video] | روبي - يالرموش'
     },
 
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/cUC6ckwU4Wc?autoplay=1',
         title: 'عبد الباسط حمودة-الجو هادي | Abd El Basset Hamouda-El Gaw Hady'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/6WEtworZ0so?autoplay=1',
         title: 'Mohamed Mounir-El Nawasy | محمد منير-النواصي'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/hwVfOcXeCgM?autoplay=1',
         title: 'Hakim Ft. Olga Tañón - Ah Ya Alby'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/Q47ZumsJleI?autoplay=1',
         title: 'Shando - Abd El Hady '
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/jEbLPiHIjZQ?autoplay=1',
         title: 'Cairokee - Ghammad Einak | كايروكي - غمض عينك'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/mhs3y8b2IGk?autoplay=1',
         title: 'Donia Samir Ghanem Ft. Abdelbaset '
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/BxM1EfuVIkg?autoplay=1',
         title: 'DJ Totti - Moled El Gezeera '
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/unnrPg5zq_k?autoplay=1',
         title: 'مسار إجباري - صباحك | Massar Egbari - Sabahek'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/LohEcMnGedo?autoplay=1',
         title: 'Talaat Zain - Teke Ta'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/bl_VGgtXKEs?autoplay=1',
         title: 'Cairokee-James Dean (Official Music Video) كايروكي-جيمس دين'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/KVEsRe6lizo?autoplay=1',
         title: 'Mohamed Mounir - Wailli'
     },
     {
-        img: '../src/image/1.png',
+        img: 'src/image/1.png',
         video: 'https://www.youtube.com/embed/Ri7VfMlV1Zk?autoplay=1',
         title: 'القلب يا ناس اشتكى'
     },
@@ -146,7 +146,7 @@ const stopSound = () => {
 btnFlip.addEventListener('click', () => {
     confetti_start('my-canvas', 5, true);
 
-    sound.voluem=0.7;
+    sound.voluem = 0.7;
     sound.play();
 
     if (!isFrontShowing) {
